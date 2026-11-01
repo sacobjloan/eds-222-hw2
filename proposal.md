@@ -18,7 +18,7 @@ Respond to the prompts below in a new Quarto document named `proposal.qmd`. Writ
 
 ## 2. Causal relationships
 
-1. Draw a directed acyclic graph (DAG) of the causal relationships you think connect your explanatory variable to your response. Include at least one other variable that affects your response, and at least one potential **confounder** (a variable that affects both your explanatory and response variables). You may draw it by hand and include a photo, or use a tool like `mermaid` (see below).
+1. Draw a directed acyclic graph (DAG) of the causal relationships you think connect your explanatory variable to your response. Include at least one other variable that affects your response, and at least one potential **confounder** (a variable that affects both your explanatory and response variables). You may draw it by hand and include a photo, or use a tool like `mermaid` (see below).t
 2. Explain each arrow in your DAG in one sentence. Why do you think that causal relationship exists?
 3. Which variables in your DAG are in your data? Which are not? How might the missing variables bias your results?
 

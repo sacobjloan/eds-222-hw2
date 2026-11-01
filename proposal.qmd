@@ -1,0 +1,27 @@
+1a. How does biodiversity change across two adjacent parts of a nature preserve; one with a development history (prior golfcoures) and one without (intact habitat).
+
+1b. Is preserving a parcel of land for wildlife habitat enough, or do additional steps need to be taken to create meaningful habitat in areas that have been disturbed? Land managers are the key audience for this analysis, because restoration efforts can be very costly and might have only marginal gains compared to land simply left alone. 
+
+https://onlinelibrary.wiley.com/doi/full/10.1111/rec.12098 (article discussing cost benefit analysis of passive and active restoration)
+
+https://www.sciencedirect.com/science/article/pii/S0006320722002634 (uhhh another one)
+
+1c. Data came from iNaturalist observations, one row is one single observation of a species, honestly most of the observations are mine, the response variable would be some sort of biodivesity index I have yet to decide on.
+
+1d.
+
+2a. 
+
+```{mermaid}
+flowchart LR
+
+development_history --> biodiversity
+species_richness --> biodiversity
+species_evenness --> biodiversity
+habitat_type --> development_history
+habitat_type --> biodiversity
+```
+
+2b. So basically there are two main components of biodiversity: species richness and species evenness. Both of those would be affected by development history, but also the habitat type of a region often determines how it is developed, but also the habitat type of a region determines the biodiversity abundant there so we gotta think about all of that.
+
+2c. MMMMMMMMM there isn't habitat type yet, but that can be added because the two areas are quite different (the golf course is now a grass/wetland and the undeveloped area is more oak savannah)
